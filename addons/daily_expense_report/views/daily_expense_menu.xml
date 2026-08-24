@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Root menu -->
+    <menuitem id="menu_daily_expense_report_root"
+              name="Daily Expense Report"
+              sequence="10"/>
+
+    <menuitem id="menu_daily_expense_report_entries"
+              name="Entries"
+              parent="menu_daily_expense_report_root"
+              action="action_daily_expense_report"
+              sequence="10"/>
+
+</odoo>
