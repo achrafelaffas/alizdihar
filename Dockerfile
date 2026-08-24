@@ -3,7 +3,7 @@ FROM odoo:19
 USER root
 
 # Copy custom and enterprise addons into the image
-COPY ./addons /mnt/extra-addons
+# COPY ./addons /mnt/extra-addons
 # COPY ./enterprise /mnt/extra-addons/enterprise
 
 # Copy your Odoo config
