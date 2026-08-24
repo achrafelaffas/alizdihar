@@ -4,7 +4,7 @@ USER root
 
 # Copy custom and enterprise addons into the image
 COPY ./addons /mnt/extra-addons
-COPY ./enterprise /mnt/extra-addons/enterprise
+# COPY ./enterprise /mnt/extra-addons/enterprise
 
 # Copy your Odoo config
 COPY ./odoo.conf /etc/odoo/odoo.conf
